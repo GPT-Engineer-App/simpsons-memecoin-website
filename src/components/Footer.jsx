@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Twitter, Discord } from "lucide-react";
+import { Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
             <Twitter className="h-6 w-6" />
           </a>
           <a href="https://discord.com" className="text-muted-foreground hover:text-foreground">
-            <Discord className="h-6 w-6" />
+            <img src="/placeholder.svg" alt="Discord" className="mx-auto object-cover w-6 h-6" />
           </a>
         </div>
       </div>
